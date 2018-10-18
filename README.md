@@ -1,9 +1,9 @@
-# Tree Intersection
+# Is it a Child
 
 ## Challenge
 
-Write a function which finds common values from two binary trees, preferably using maps for the best speed.
+Write a function which takes in a binary tree and two values and returns true if the second value is a child of the first, return false otherwise.
 
 ## Travis
 
-[![Build Status](https://travis-ci.com/kris3579/Code-Challenge-28.svg?branch=master)](https://travis-ci.com/kris3579/Code-Challenge-28)
+[![Build Status](https://travis-ci.com/kris3579/Code-Challenge-29.svg?branch=master)](https://travis-ci.com/kris3579/Code-Challenge-29)
