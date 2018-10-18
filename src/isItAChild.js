@@ -3,6 +3,9 @@
 let foundValue1 = false;
 
 module.exports = function isItAChild(root, value1, value2) {
+  if (root === null) {
+    return false;
+  }
   if (root.value === value1) {
     foundValue1 = true;
   }
@@ -14,8 +17,8 @@ module.exports = function isItAChild(root, value1, value2) {
   if (findValueLeft === true || findValueRight === true) {
     return true;
   }
-  if (root.value === value1 && findValueLeft === undefined && findValueRight === undefined) {
+  if (root.value === value1 && findValueLeft === false && findValueRight === false) {
     foundValue1 = false;
   }
-  return undefined;
+  return false;
 };
